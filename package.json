@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nesk/rialto": "https://github.com/danielDigitalArt/rialto.git",
-    "puppeteer": "^15.4.0",
+    "puppeteer": "^19.7.0",
     "puppeteer-extra": "^3.3.4",
     "puppeteer-extra-plugin-stealth": "^2.11.0"
   },
