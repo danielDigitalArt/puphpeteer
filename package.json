@@ -22,8 +22,10 @@
     "node": ">=9.0.0"
   },
   "dependencies": {
-    "@nesk/rialto": "^1.2.1",
-    "puppeteer": "^14"
+    "@nesk/rialto": "https://github.com/danielDigitalArt/rialto.git",
+    "puppeteer": "^15.4.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.0"
   },
   "devDependencies": {
     "@types/yargs": "^15.0.10",
