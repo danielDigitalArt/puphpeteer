@@ -195,10 +195,11 @@ Error-Message:
 An `executablePath` or `channel` must be specified for `puppeteer-core`
 
 new versions of puppeteer require the executablePath to be set:
+```php
 $puppeteer->launch([
             'executablePath'=> base_path().'/node_modules/@nesk/puphpeteer/node_modules/puppeteer/.local-chromium/linux-1022525/chrome-linux/chrome',
             'headless'=> true,
             'ignoreHTTPSErrors' => true,
 ]);
-
+```
 In this example the bath is hardcoded, no automatic solution atm.
