@@ -1,6 +1,6 @@
 {
   "name": "@zoon/puphpeteer",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A Puppeteer bridge for PHP, supporting the entire API.",
   "keywords": [
     "php",
@@ -24,6 +24,8 @@
   "dependencies": {
     "@zoon/rialto": "github:zoonru/rialto#semver:^1.5.0",
     "puppeteer": "^20"
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   },
   "devDependencies": {
     "@types/yargs": "^15.0.10",
