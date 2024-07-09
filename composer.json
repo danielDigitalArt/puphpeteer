@@ -22,7 +22,7 @@
     "php": "^8.2",
     "ext-json": "*",
     "composer/semver": "^3.0",
-    "zoon/rialto": "^1.5",
+    "danieldigitalart/rialto": "^2.0",
     "psr/log": "^3.0",
     "thecodingmachine/safe": "^2.5"
   },
