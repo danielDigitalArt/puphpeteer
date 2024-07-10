@@ -1,6 +1,6 @@
 {
   "name": "@danieldigitalart/puphpeteer",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "A Puppeteer bridge for PHP, supporting the entire API.",
   "keywords": [
     "php",
@@ -17,12 +17,12 @@
     "url": "https://johann.pardanaud.com/"
   },
   "license": "MIT",
-  "repository": "github:danieldigitalart/puphpeteer",
+  "repository": "git+https://github.com/danieldigitalart/puphpeteer.git",
   "engines": {
     "node": ">=9.0.0"
   },
   "dependencies": {
-    "@danieldigitalart/rialto": "github:danieldigitalart/rialto#semver:^2.0.0",
+	"@danieldigitalart/rialto": "git+https://github.com/danieldigitalart/rialto.git#semver:^^2.0.0",
     "puppeteer": "^20",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
