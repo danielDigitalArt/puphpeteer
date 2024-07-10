@@ -1,9 +1,9 @@
 "use strict";
 
-const { ConnectionDelegate } = require("@zoon/rialto"),
-  Logger = require("@zoon/rialto/src/node-process/Logger"),
-  ConsoleInterceptor = require("@zoon/rialto/src/node-process/NodeInterceptors/ConsoleInterceptor"),
-  StandardStreamsInterceptor = require("@zoon/rialto/src/node-process/NodeInterceptors/StandardStreamsInterceptor");
+const { ConnectionDelegate } = require("@danieldigitalart/rialto"),
+  Logger = require("@danieldigitalart/rialto/src/node-process/Logger"),
+  ConsoleInterceptor = require("@edanieldigitalart/rialto/src/node-process/NodeInterceptors/ConsoleInterceptor"),
+  StandardStreamsInterceptor = require("@danieldigitalart/rialto/src/node-process/NodeInterceptors/StandardStreamsInterceptor");
 
 /**
  * Handle the requests of a connection to control Puppeteer.
