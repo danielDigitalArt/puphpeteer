@@ -2,7 +2,7 @@
 
 const { ConnectionDelegate } = require("@danieldigitalart/rialto"),
   Logger = require("@danieldigitalart/rialto/src/node-process/Logger"),
-  ConsoleInterceptor = require("@edanieldigitalart/rialto/src/node-process/NodeInterceptors/ConsoleInterceptor"),
+  ConsoleInterceptor = require("@danieldigitalart/rialto/src/node-process/NodeInterceptors/ConsoleInterceptor"),
   StandardStreamsInterceptor = require("@danieldigitalart/rialto/src/node-process/NodeInterceptors/StandardStreamsInterceptor");
 
 /**
