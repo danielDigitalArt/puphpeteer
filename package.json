@@ -22,7 +22,7 @@
     "node": ">=9.0.0"
   },
   "dependencies": {
-	"@danieldigitalart/rialto": "git+https://github.com/danieldigitalart/rialto.git#semver:^^2.0.0",
+	"@danieldigitalart/rialto": "git+https://github.com/danieldigitalart/rialto.git#semver:^2.0.0",
     "puppeteer": "^20",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
