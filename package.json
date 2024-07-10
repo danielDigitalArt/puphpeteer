@@ -1,6 +1,6 @@
 {
   "name": "@danieldigitalart/puphpeteer",
-  "version": "2.1.2",
+  "version": "2.1.4",
   "description": "A Puppeteer bridge for PHP, supporting the entire API.",
   "keywords": [
     "php",
